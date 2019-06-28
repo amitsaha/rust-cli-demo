@@ -1,0 +1,15 @@
+[package]
+name = "rust-cli-demo"
+version = "0.1.0"
+authors = ["Amit Saha <amitsaha.in@gmail.com>"]
+edition = "2018"
+
+build = "build.rs"
+
+[build-dependencies]
+clap = "2"
+liboverdrop = "0.0.2"
+
+[dependencies]
+clap = "2"
+liboverdrop = "0.0.2"
